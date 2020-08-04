@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <h1>Hello World from Nimra</h1>
+      <p>Nimra say HI! to every bootcamp Teachers</p>
     </div>
   );
 }
