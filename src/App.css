@@ -6,6 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.styling{
+  font-weight: 400;
+  background: #282c34;
+  padding: 10px;
+  color: rgb(46, 206, 206);
+  font-size: 30px;
+}
+h1{
+  text-align: center;
+  color: #1215cf;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

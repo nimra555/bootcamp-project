@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
+import Introduction from './Introduction';
 
 function App() {
   return (
     <div>
-      <h1>Hello World from Nimra</h1>
-      <p>Nimra say HI! to every bootcamp Teachers</p>
+      <Introduction class='Bootcamp Urdu 2020' teacher='Aamir Pinger,Mohsin Khalid ,Ameen Alam and Bashir Aziz'/>
+     
     </div>
   );
 }
