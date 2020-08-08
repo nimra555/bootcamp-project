@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css'; 
-import Introduction from './Introduction';
+import Header from './Component/Header'; 
+import Main from './Component/main'; 
+import Footer from './Component/footer'; 
+
 
 function App() {
-  return (
+  return(
     <div>
-      <Introduction class='Bootcamp Urdu 2020' teacher='Aamir Pinger,Mohsin Khalid ,Ameen Alam and Bashir Aziz'/>
-     
+     <Header />
+     <Main />
+     <Footer name={'nimra'}/>
     </div>
   );
 }
