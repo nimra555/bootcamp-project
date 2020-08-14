@@ -1,17 +1,19 @@
-import React  from 'react';
+import React, { useState }  from 'react';
 import './App.css'; 
-// import CounterContext from './countContext.js';
+import CounterContext from './Countcontext.js';
 import Parent from './Parent.js';
-;
+
 
 function App() {
+
+  let countState = useState(0);
+
   return(
-    // <CounterContext.provider value = {0}>
+    <CounterContext.Provider value={countState}>
     <div>
       <Parent />
     </div>
-      
-    // </CounterContext.provider>
+    </CounterContext.Provider>
   );
 }
 
