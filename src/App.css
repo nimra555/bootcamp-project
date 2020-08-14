@@ -10,7 +10,7 @@ ul{
 }
 ul li{
   display: inline-block;
-  /* text-align: center; */
+  text-align: center; 
   font-weight: 900;
   text-transform: uppercase;
   margin-right: 20px;
@@ -18,9 +18,9 @@ ul li{
   padding-right: 5px;
   cursor: pointer;
   color: #F44336;;
-}
+} 
 
- h1{
+h1{
   text-align: center;
     font-style: italic;
     font-family: serif;
@@ -28,7 +28,18 @@ ul li{
     color: darkblue;
     font-weight: 100;
 } 
-.main{
+button{
+  margin-left: 550px;
+    font-size: 35px;
+    background: #9E9E9E;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+
+/* .main{
   background: #09b62e;
 }
 p{
@@ -47,4 +58,4 @@ p{
   padding: 5px;
   color: darkblue;
   letter-spacing: 3px;
-}
+} */

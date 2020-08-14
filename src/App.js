@@ -1,17 +1,17 @@
-import React from 'react';
+import React  from 'react';
 import './App.css'; 
-import Header from './Component/Header'; 
-import Main from './Component/main'; 
-import Footer from './Component/footer'; 
-
+// import CounterContext from './countContext.js';
+import Parent from './Parent.js';
+;
 
 function App() {
   return(
+    // <CounterContext.provider value = {0}>
     <div>
-     <Header />
-     <Main />
-     <Footer name={'nimra'}/>
+      <Parent />
     </div>
+      
+    // </CounterContext.provider>
   );
 }
 
