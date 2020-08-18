@@ -22,7 +22,8 @@ function Main() {
         }
         addTransaction({
             amount:Number(amount),
-            description:des
+            description:des,
+            id:Math.floor(Math.random() * 10000000 )
         })
     }
      
