@@ -29,13 +29,14 @@ h1{
     font-weight: 100;
 } 
 button{
-  margin-left: 550px;
+  margin-left: 400px;
     font-size: 35px;
     background: #9E9E9E;
     border: none;
-    padding: 10px 50px;
+    padding: 10px 20px;
     cursor: pointer;
     margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
