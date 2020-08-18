@@ -1,7 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { ExpenseContext } from './Transcontext';
-import {TransactionReducer} from './Transreducer';
-// import { id } from 'postcss-selector-parser';
 
 
 
@@ -69,7 +67,7 @@ function Main() {
                             <li key={index}>
                                 <span>{transObj.description}</span>
                                 <span> {transObj.amount} </span>
-                                <button onClick={()=>{deleteTransaction(console.log('delete'))}}>x</button>
+                                <button onClick={()=>{deleteTransaction(transObj.id)}}>x</button>
                             </li>
 
                         )
